@@ -1,0 +1,7 @@
+/.idea/
+/.vscode/
+/.git/
+/build/
+/lib/
+/bin/
+/target
