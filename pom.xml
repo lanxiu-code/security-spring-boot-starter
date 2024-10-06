@@ -13,7 +13,7 @@
     <version>1.0.0</version>
     <name>security-spring-boot-starter</name>
     <description>security-spring-boot-starter</description>
-
+    <url>https://github.com/lanxiu-code/security-spring-boot-starter</url>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -34,10 +34,10 @@
     </developers>
 
     <scm>
-        <connection>https://gitee.com/wangfugui-ma/aliyun-oss-spring-boot-starter.git</connection>
-        <developerConnection>scm:git:ssh://git@gitee.com:wangfugui-ma/aliyun-oss-spring-boot-starter.git
+        <connection>https://github.com/lanxiu-code/security-spring-boot-starter.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:zhuyinge/security-spring-boot-starter.git
         </developerConnection>
-        <url>https://gitee.com/wangfugui-ma/aliyun-oss-spring-boot-starter</url>
+        <url>https://github.com/lanxiu-code/security-spring-boot-starter</url>
     </scm>
 
     <properties>
@@ -102,7 +102,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
-                <version>2.2.1</version>
                 <executions>
                     <execution>
                         <id>attach-sources</id>
@@ -130,7 +129,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
-                <version>1.5</version>
                 <configuration>
                     <executable>D:\software\GPG\GnuPG\bin</executable>
                     <keyname>zhuyinge</keyname>
