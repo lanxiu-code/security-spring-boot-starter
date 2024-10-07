@@ -8,7 +8,7 @@
         <version>2.7.15</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.lx.security</groupId>
+    <groupId>io.github.lanxiu-code</groupId>
     <artifactId>security-spring-boot-starter</artifactId>
     <version>1.0.0</version>
     <name>security-spring-boot-starter</name>
@@ -35,7 +35,7 @@
 
     <scm>
         <connection>https://github.com/lanxiu-code/security-spring-boot-starter.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com:zhuyinge/security-spring-boot-starter.git
+        <developerConnection>scm:git:ssh://git@github.com:lanxiu-code/security-spring-boot-starter.git
         </developerConnection>
         <url>https://github.com/lanxiu-code/security-spring-boot-starter</url>
     </scm>
@@ -129,9 +129,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.6</version>
                 <configuration>
-                    <executable>D:\software\GPG\GnuPG\bin</executable>
-                    <keyname>zhuyinge</keyname>
+                    <executable>D:\software\GPG\GnuPG\bin\gpg.exe</executable>
+                    <keyname>lanxiu-code</keyname>
                 </configuration>
                 <executions>
                     <execution>

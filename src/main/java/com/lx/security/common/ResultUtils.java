@@ -2,15 +2,12 @@ package com.lx.security.common;
 
 /**
  * 返回工具类
- *
  * 蓝朽
- * 
  */
 public class ResultUtils {
 
     /**
      * 成功
-     *
      * @param data
      * @param <T>
      * @return
@@ -21,7 +18,6 @@ public class ResultUtils {
 
     /**
      * 失败
-     *
      * @param errorCode
      * @return
      */
